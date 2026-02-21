@@ -1,0 +1,58 @@
+/* ---------------------- General Styling ---------------------- */
+body {
+    text-align: center; /* center all content */
+    font-family: Arial, sans-serif; /* readable font */
+    padding: 20px; /* spacing around content */
+    background-color: #f0f0f0; /* light background */
+}
+
+.container {
+    max-width: 600px; /* limit container width */
+    margin: auto; /* center container */
+}
+
+/* ---------------------- Color Box Styling ---------------------- */
+.color-box {
+    height: 100px; /* fixed height */
+    width: 100%; /* responsive width */
+    max-width: 500px; /* max width on larger screens */
+    border: 2px solid #333; /* visible border */
+    margin: 20px auto; /* spacing and center */
+    line-height: 100px; /* vertical center text */
+    font-weight: bold; /* text bold */
+    transition: background-color 0.5s ease; /* smooth color change */
+    border-radius: 8px; /* rounded corners */
+}
+
+/* ---------------------- Button Styling ---------------------- */
+.btn {
+    padding: 12px 24px; /* button size */
+    font-size: 16px; /* readable font */
+    color: white; /* text color */
+    background-color: green; /* default bg color */
+    border: none; /* remove default border */
+    border-radius: 5px; /* rounded button */
+    cursor: pointer; /* pointer on hover */
+    transition: transform 0.3s ease, opacity 0.3s ease, background-color 0.3s ease; /* smooth hover */
+}
+
+/* Hover effect for button */
+.btn:hover {
+    transform: scale(1.1); /* grow slightly */
+    opacity: 0.9; /* slight transparency */
+    background-color: darkgreen; /* darker shade */
+}
+
+/* ---------------------- Responsive Adjustments ---------------------- */
+@media (max-width: 600px) {
+    .btn {
+        width: 80%; /* full width on small screens */
+        font-size: 14px; /* smaller font */
+    }
+
+    .color-box {
+        width: 90%; /* smaller box on mobile */
+        font-size: 14px; /* smaller text */
+        line-height: 80px; /* adjust vertical centering */
+    }
+}
