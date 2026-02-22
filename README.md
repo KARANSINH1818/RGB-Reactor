@@ -1,6 +1,12 @@
-# 🎨 Generate Random Color - Web Project
+# 🎨 Generate Random Color 
 
 A simple and responsive web project to generate random colors using HTML, CSS, and JavaScript.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://karansinh1818.github.io/RGB-Reactor/ 
 
 ---
 
